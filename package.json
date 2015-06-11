@@ -1,6 +1,6 @@
 {
   "name": "chai-also",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Support for accessing parent properties with Chai",
   "homepage": "https://github.com/wbyoung/chai-also",
   "main": "index.js",
