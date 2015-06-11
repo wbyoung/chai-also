@@ -1,0 +1,44 @@
+{
+  "name": "chai-also",
+  "version": "0.0.0",
+  "description": "Support for accessing parent properties with Chai",
+  "homepage": "https://github.com/wbyoung/chai-also",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/wbyoung/chai-also/issues"
+  },
+  "scripts": {
+    "test": "jshint . && jscs . && istanbul cover node_modules/.bin/_mocha --report html --",
+    "test-travis": "jshint . && jscs . && istanbul cover node_modules/.bin/_mocha --report lcovonly --"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wbyoung/chai-also.git"
+  },
+  "keywords": [
+    "chai",
+    "property",
+    "properties",
+    "also"
+  ],
+  "author": "Whitney Young",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "chai": ">= 2.3.0 < 4"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "istanbul": "^0.3.14",
+    "jscs": "^1.13.1",
+    "jscs-jsdoc": "^1.0.1",
+    "jshint": "^2.8.0",
+    "lodash": "^3.9.3",
+    "mocha": "^2.2.5"
+  }
+}
